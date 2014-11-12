@@ -9,4 +9,9 @@ public class SecondActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_second);
 	}
+	
+	@Override
+	protected void onPause() {
+		super.onPause();
+	}
 }

@@ -12,6 +12,7 @@ public class ThirdActivity extends Activity {
 		//表现的不错
 		Toast.makeText(this, "靠！又解决一个BUG", Toast.LENGTH_LONG).show();
 		Toast.makeText(this, "靠！又解决第三个BUG", Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "AAAAAAAAAAAA", Toast.LENGTH_LONG).show();
 	}
 
 }

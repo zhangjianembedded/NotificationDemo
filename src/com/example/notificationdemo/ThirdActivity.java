@@ -1,7 +1,13 @@
 package com.example.notificationdemo;
 
-public class ThirdActivity {
-	// aASSA
-	// 222222222222
-	//xxxxxxxxxxxx
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Toast;
+
+public class ThirdActivity extends Activity {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		Toast.makeText(this, "½â¾öBUG", Toast.LENGTH_LONG).show();
+	}
 }

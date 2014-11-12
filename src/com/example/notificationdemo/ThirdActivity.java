@@ -9,6 +9,7 @@ public class ThirdActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		Toast.makeText(this, "解决BUG", Toast.LENGTH_LONG).show();
+		//表现的不错
 	}
 
 }
